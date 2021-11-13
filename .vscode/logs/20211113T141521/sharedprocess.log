@@ -1,9 +1,0 @@
-[2021-11-13 14:16:01.427] [sharedprocess] [info] Uninstalling extension: ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:01.449] [sharedprocess] [info] Removing language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:01.745] [sharedprocess] [info] Detected extension removed from another source ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:02.800] [sharedprocess] [info] Successfully uninstalled extension: ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:07.399] [sharedprocess] [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:11.689] [sharedprocess] [info] Downloaded extension: ms-ceintl.vscode-language-pack-zh-hans /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-zh-hans-1.62.3
-[2021-11-13 14:16:11.722] [sharedprocess] [info] Removed the extension from uninstalled list: ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:11.727] [sharedprocess] [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
-[2021-11-13 14:16:11.830] [sharedprocess] [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
