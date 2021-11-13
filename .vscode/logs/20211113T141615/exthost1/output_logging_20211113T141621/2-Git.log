@@ -1,0 +1,1376 @@
+正在验证在以下位置中找到的 git: git
+将使用位于 git 的 Git 2.32.0
+> git rev-parse --git-dir
+Open repository: /root/Jupyter/WSL/WSL_GNOME
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /root/Jupyter/WSL/WSL_GNOME/cygwin-auto-install
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/modules/cygwin-auto-install/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :00-wsl2-systemd.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :XWin_Cygwin.cmd
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/XWin_Cygwin.cmd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :00-wsl2-systemd.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.md
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startgnome.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startgnome.sh
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :00-wsl2-systemd.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startgnome.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startgnome.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startwslX
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startwslX
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startgnome.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startgnome.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startwslX
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startwslX
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :install.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/install.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startgnome.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startgnome.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :install.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/install.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :startgnome.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/startgnome.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :README.md
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/clone.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/install.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/ISwitch.exe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/ISwitch.ini
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/ISwitchlab.dll
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/LICENSE
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s fa8cbece658ac22dbb7b2149ba2b8069364a4461
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/setwsl2bridge.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/setguienv
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s fa8cbece658ac22dbb7b2149ba2b8069364a4461
+> git show --textconv :README.md
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/runv4tov4.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s fa8cbece658ac22dbb7b2149ba2b8069364a4461
+> git show --textconv :README.md
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/.vscode/Backups/workspaces.json /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/209f3f5b1e1831ce_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/4936d3c69a825fe2_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/526a8825caa06dc6_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/5781b75a97fafe6e_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/59355fd08e978084_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/625bbe30771f2f39_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/6c87a2521a5c67eb_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/73a2648b25994983_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/c85687354a0e770a_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/cbc42e4c979f69f0_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/e1c6002ca3608b6f_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/index /root/Jupyter/WSL/WSL_GNOME/.vscode/Cache/index-dir/the-real-index /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/agent-2a8ffa269fcaa48602fc2752c52ebce7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/agent-44dea5e1cdc0a430cd856f3ab0b3a6c0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/agent-670cc96e06ab4f0e2cac1425249460de.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/agent-df337805767be735ebe98d47fba46ab6.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/bindings-5f149bbc464abc43a37acedb30314297.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/bindings-7892486a01de832d86c094006e8c9daa.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/0f73b60f2676dac0_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/1caf25f3e1881c7b_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/23bac8f657399c16_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/3580fce24c1e5bd8_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/47d5983f516c8df4_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/4ca8601c3a8605be_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/5324838a024a7d1b_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/5f513bf816e32d37_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/5ffc9b8837f2b807_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/6b329760d8aaae63_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/95e1722cb22ed302_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/b339f65bb7bd3826_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/beadafb36a80c921_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/c0eb17a65cbbcf90_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/c90fe22fa0790da2_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/e45684ff8f7c688b_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/index /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/js/index-dir/the-real-index /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/wasm/index /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/chrome/wasm/index-dir/the-real-index /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/clone-59a0bdff9dccba60a7f2dd884c86a808.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/clone-5cca3fb353a1b18779e73ac3bb6bdd95.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/clone-6f38514ee2887d377722e63141ab545f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/clone-74ebe600870f29bcad9f94954b50032e.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/clone-8ed2a3ea49bf8cd79afb7ff671446f53.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-25558d61ef50e90a84713b0f814c3084.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-3c8e27fc52ff12de8c0b624299241329.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-435f5e6e12731020fe989c3ca6531a37.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-4f1a36545b7882faf2e72067991af8c3.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-6975744035ae2c60a33069ff977b5f74.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-794bd3e5f9ef4e6effe70c224599bf65.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-c595ce2fc7ae1d5dcf45dd01e11f8c0f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/common-f35cfa506661f2c99f9d62f99a5faab5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/compile-68e5bc9845dd08a53f1409bf65a54d4a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/connection-e57d30577ffb84b250998859e9c65414.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/constants-1d3d2acda3466b79fc0d57206e303ba0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/constants-4030dbb9eeb8844fc92e87e7d5c86976.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/constants-d14e1578b40508edc43fd663b412819a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/constants-d7b622c1e54df9da48dd1a121a094bb7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/copy-ae1f4bc9cc953ca2c1674781da9d7d0c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/copy-sync-736fba2291f29a4d4e8319d2e54cab9b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/data-bcb53d4a991d19050f7d34f794a5d07c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/expand-3f9f61a99cb1ec2758bcc4054bb0df6b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-0d5c245c70e2260556a99ab00902a214.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-163b14821244b0d220115d5e9d827c8f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-67c4066b49525346865c6e31ee70e995.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-9b45f6a61f7f680cbe1f8eec6f649c5f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-ac2db45d0b07523ae00beed67edc7645.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extension-f2f16a509b5a12ace380f79332b0fa48.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extensionEditingMain-4a0812326aa1ef9fde4c4043aaea424f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extensionHostProcess-a2721749c0feb7adbcf5efd52ef261fc.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/extensionHostProcess.nls-ec59101a441f13befcf57fdc5ce87132.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/file-60a3a5232e83e071540630c2331d5995.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/file-8710804da95b66cd81c246b430bf5069.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/fsevents-handler-ce893208f802c47d0486e46011bc44e9.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/ftp-b779158f7bdfb34f61a6310f72eeffa4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/graceful-fs-37afd68f2ac47418a3906e4922920a4a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/graceful-fs-43b5bf5b590825f716adde0c55bdbd32.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/graceful-fs-871fe8cd224e0871b494843d32454637.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/graceful-fs-8b67edb599aca72bf1f0364d548bb599.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/graceful-fs-a2c22fca69a5b5d2d0e18f6b2313f2ac.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/helpers-22b23daec46f4c95154f48e016e9dc82.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/http-10e4d824b807caf5c346dbdb290f6fc1.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/http-error-846cd70fb50c75e0091875d75b60f09c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/https-81921dea2d823c32ef1b907d37a2e7f0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-020a64dc3269298eb433a492fb5bbcd0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-05d32e6b5d0451efd43b524be704056f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-087e8059286c65a1090edb281cc5f265.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-09eea74dd23731a147de47695f8907ec.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-0cc67a9b4a603d28b46c5483941aa895.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-0de786cc1b61a6b63d50aca35af4c746.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-0fb369b3d53d87bb5b5e9580ba2466bc.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-165e4328b2206d6a798a642f733e9f2b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-19605ecbab7f5c1e7c657cf65eb0e6fc.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-2625690be7b359114cb74159f0dce2e5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-29a79558b3440c1165a57d150b0cd0e4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-2b9588cc26ee71c477ba4acdbf2ec330.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-3606bc3c860c26efb64a65f5342ee71b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-3b3620f12ade30d90fa315cbbbd6ea27.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-3f66e5792049e7154fa3c3d2c9982aae.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-3ffc3a8b99347c809a4dd6e5c6563c96.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-49f4a3057e81e54aa39ce830aa379832.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-4c36929c7c226bb4a755a2d8e68d47d7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-4e3191a2aa433f438d26b7d3a221faf4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-4f08746955d8e789f8d00f3f62882acd.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-5874a276ebfdbdbb47d4d35c4d1c5f78.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-59e20d76a8f05caef7d9ce25edf91796.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-5eafe6b6f2c61f3e80229ecd9ccde1ef.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-5ee1cd70f64f25d091f1c53da5ec5256.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-5fb853b23e8c49da8075b6ca3810e06f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-62538f7e2e9f94ffa60491ea6e5fef07.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-647ab358396c5de88f20ff193d80af38.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-64ddd43a134c6c6b1cdb111f7b35af85.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-6532fbdbcd20edbb65b65f69ec1645f9.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-6aca93a5e2588ca003382ca5e562597f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-72f38413091724837807b5c7b979a515.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-7859416cb975a06ac63313bee08c77b1.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-7a6f7b8e98269a688a0114d6a1728013.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-7c02e03da30b5a82037d5f9f986f27b8.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-80e6879391f4904b692a9a518d09fe02.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-81a4b3b7c5955d3dc07028faca66819d.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-88547c96454904db8f210e3fa73c6e27.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-8acaf364d6ac0d60413d15a59536e501.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-8ceca1b3da2bd5610095aa7b3d5ac824.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-8dc76010cda698e3a0e9ced21e268234.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-98086e6fe277046c7ecc77725b272dc4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-a216dd9cd06c684e70aa35f75b9ddf34.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-a6f671b1d4bfad4391420461533417b6.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-a771bf2a67ef0a881c71403539a2259c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-aaf7c8bdf04ed9276e2956180c07b5c1.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-addf5a31d74c89b20e8c408424bc6bfb.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-ae6f855e3b8fbb94d0e6b52933390a61.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-afbf6d95b97bf1551ba8f95a7aac6d49.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-b13015a320520dd5a2d84eaf80025d76.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-b6a289bbeeb4a2718f94f0542e0fe618.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-b8dab12ef2710a08380f9ad3d49b8a60.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-bce6882eb9680a2e62f1a3cfad364d6b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-c10945bb92dd994e0afbcf08e48b1db2.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-c40d42c3c92fa8ebe40461e4379cc550.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-cc46afecff4556b5031f9362be667b63.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-d2ce04f7a455ea12f876425015e29c65.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-d4a49dce6102d1a3d4082ad4320750fb.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-db16df0d6079ade269a89dbfeb4ec8a8.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-e0f25ff2a12e8645ab1071827ebe73c4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-f00d4cd68cef67bbff6998f4d45d2ec5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-f49f8953fd0a5d2743793d8e095f7573.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-f4e5bbc4e20dc002425545acf5182f2f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-f88a0b9eb3828619c15255c0cfa1a935.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-fae23cda846a2e411be4c9440df610d0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-ff1dea547273a0ff389d3100b6c7017f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/index-fff63c5ef378c57e8918d6c6cfb0c334.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/ip-19722a57094e0c8da50e8cd786fec87b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/jsonfile-e7948164e412887a89d4070862a74cc7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/keytar-54eb4447b08aa8a9869428320024267d.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/legacy-streams-21b0eadc3c7115f13b127f348d4748ff.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/legacy-streams-548d3d95a03571cd041b9541071abafe.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/legacy-streams-57102e4d9538e1a5cfdbedecc5dc62bd.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/legacy-streams-874589af7902bce7d465c54cbe37fde9.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/legacy-streams-be90895d8987717728140698955a5785.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/link-f8770db400cdfd1396c54d09ecaa9e75.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/main-b102866dbf51659445431d345dc6b12a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/main-ead8d948351924cea5060af129291e43.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/main.nls-9ab8ec7abf8b83826313d53950474d97.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/mergeConflictMain-11537021371519e503be75f1c04e6df9.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/mkdirs-2bfdb11937435e630e92d9c33bfe038a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/mkdirs-sync-fbab5b25784eeb50992901a13bd0d13c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/move-666241cbe335c3e47219ee4554794d22.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/move-sync-21afaee73e5ede825041d13ccaccb54a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-0adbd8a22d41e087ea1eb1a430593e8b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-16394327013ea9311cd088a503a23eba.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-1ffd54497935284d98727487e09bffcc.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-621e8488b9e80c58345192bdce1cb3bd.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-67095acec0621242d7bfb476ab7efeb5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-85856012f442a545c180d9508ffbcea4.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-a3f696bc3ea82cb9a3ca206ecdb10ccf.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/node-bc9700f45d91ddaa06bab9e0ae8f38d7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/nodefs-handler-13f2f40168e60ce2a2d1b9a7d314fe4c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/notfound-35a097443a90938be2494c959639889c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/notmodified-bc060b927ecef30f5e7bd6763e66c2d5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/output-json-0731a011d153ae22ab8ed9d26a5a8dd7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/output-json-sync-d5b4dd0b8dff75b6965db386829c7f2b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/parse-7af5b3c7d89c658f0275688b2730f42d.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/parse-ec470aca8ef3d524cb08f91ec78a2765.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/parse-proxy-response-b4723bd262a7f6ddf07c30d4def8b7d5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/parser-a5603cb3d29c58d46b828031c338731e.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/patch-core-ef0353f6ead38b30130a4251094ba774.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/picomatch-c196f1234808e165b8ec20a650bab145.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/polyfills-423f0151a0661cf621c9d8cc406543ff.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/polyfills-55ad95ac48403cb1f8ebb617dd20a605.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/polyfills-7eb50c578c795f40cfe1eb497b9395b5.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/polyfills-97e905c0da62bf71d6c64881dd335248.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/polyfills-d1ede81b901c3287f67e9433ff69928c.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promise-24bf03af8e177ea881dc43f62b2dad8f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promisify-194a72b9764f49a3a45149fd1d6cfb63.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promisify-47261265ea98822e03d34111cbfef981.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promisify-da7ff9dd455a370aa5a091c3bd019238.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promisify-e8b7966155f065ae97a77e5e96af2968.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/promisify-f69a7b538e748cff08ed481dd697bef7.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/ptyHostMain-b62f0190431e97e023c49579a4726fd3.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/ptyHostMain.nls-42f11309f78ab9a906c6e7bff4ac2045.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/receivebuffer-01bfb21e5d2e0fef256fc37296dba73b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/rimraf-8f425dd58eb5f2d4fb24afd5fe414f5f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/scan-03ab57e00edf63acdc474c8d1c403bee.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/smartbuffer-177510c05e8efc633552c4e13d3d92aa.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/socksclient-3acf19a1d59070c7d5b8d0722bf0e4ce.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/sqlite3-1268b727dc8e74f66e2ee1b571f1e67b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/stat-fb8accaff7d2a805126bfbaf45b43071.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/stringify-9de95440f1e5c217afef015e282f322b.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/symlink-038658d18aa2bfe79360f120176dafa8.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/symlink-paths-113af1e025ab29ab86c1eb275ce24ad2.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/symlink-type-cebe39bfad81fe87f02619bccf633fef.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/util-b89ad5e48bd5fb43717ad926bd24eb3d.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/utils-33bec60e5fe3909c7a3eb278423e7fc0.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/utils-51ae126abf21b8ad2a56e34d33d9ffac.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/utils-c1bbf90e1168392aa1eb48f97f365382.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/utimes-a98a51fd6bfef9967dd9147680f0a38f.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/watcherApp-75e844925bcd4564016d87cdd08ea755.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/watcherApp.nls-26dba79a2f5f543cb6d6068958a4e7e3.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/win32-ba4270478e2388e1106093555c16d6af.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/xregexp-all-3afc61b887b26f6d0d5e4c1665bd4a8e.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316/xterm-headless-10ff1ccb0ab0341ea467dadd4fc3481a.code /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-zh-hans-1.62.3 /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedExtensions/builtin /root/Jupyter/WSL/WSL_GNOME/.vscode/CachedExtensions/user /root/Jupyter/WSL/WSL_GNOME/.vscode/Code Cache/js/index /root/Jupyter/WSL/WSL_GNOME/.vscode/Code Cache/wasm/index /root/Jupyter/WSL/WSL_GNOME/.vscode/Cookies /root/Jupyter/WSL/WSL_GNOME/.vscode/Cookies-journal /root/Jupyter/WSL/WSL_GNOME/.vscode/Crash Reports/client_id /root/Jupyter/WSL/WSL_GNOME/.vscode/GPUCache/data_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/GPUCache/data_1 /root/Jupyter/WSL/WSL_GNOME/.vscode/GPUCache/data_2 /root/Jupyter/WSL/WSL_GNOME/.vscode/GPUCache/data_3 /root/Jupyter/WSL/WSL_GNOME/.vscode/GPUCache/index /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/000003.log /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/CURRENT /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/LOCK /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/LOG /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/LOG.old /root/Jupyter/WSL/WSL_GNOME/.vscode/Local Storage/leveldb/MANIFEST-000001 /root/Jupyter/WSL/WSL_GNOME/.vscode/Network Persistent State /root/Jupyter/WSL/WSL_GNOME/.vscode/QuotaManager /root/Jupyter/WSL/WSL_GNOME/.vscode/QuotaManager-journal /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/838ca94a-b049-4ce2-9c49-b4133523da0d/4055d9950eaf7cd5_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/838ca94a-b049-4ce2-9c49-b4133523da0d/597d46aa604b5bf0_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/838ca94a-b049-4ce2-9c49-b4133523da0d/6b78b20b4929c8cb_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/838ca94a-b049-4ce2-9c49-b4133523da0d/index
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/838ca94a-b049-4ce2-9c49-b4133523da0d/index-dir/the-real-index /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/CacheStorage/f5f5511a548920a2aa16b5a245355b7c6b2a258d/index.txt /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/000003.log /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/CURRENT /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/LOCK /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/LOG /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/LOG.old /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/Database/MANIFEST-000001 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/2cc80dabc69f58b6_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/2cc80dabc69f58b6_1 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/ba23d8ecda68de77_0 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/ba23d8ecda68de77_1 /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/index /root/Jupyter/WSL/WSL_GNOME/.vscode/Service Worker/ScriptCache/index-dir/the-real-index /root/Jupyter/WSL/WSL_GNOME/.vscode/Session Storage/000003.log /root/Jupyter/WSL/WSL_GNOME/.vscode/Session Storage/CURRENT /root/Jupyter/WSL/WSL_GNOME/.vscode/Session Storage/LOCK /root/Jupyter/WSL/WSL_GNOME/.vscode/Session Storage/LOG /root/Jupyter/WSL/WSL_GNOME/.vscode/Session Storage/MANIFEST-000001 /root/Jupyter/WSL/WSL_GNOME/.vscode/TransportSecurity /root/Jupyter/WSL/WSL_GNOME/.vscode/User/globalStorage/state.vscdb /root/Jupyter/WSL/WSL_GNOME/.vscode/User/globalStorage/state.vscdb.backup /root/Jupyter/WSL/WSL_GNOME/.vscode/User/workspaceStorage/e8be605cef0220f4091e65898f871c8e/state.vscdb /root/Jupyter/WSL/WSL_GNOME/.vscode/User/workspaceStorage/e8be605cef0220f4091e65898f871c8e/state.vscdb.backup /root/Jupyter/WSL/WSL_GNOME/.vscode/User/workspaceStorage/e8be605cef0220f4091e65898f871c8e/workspace.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!electron-browser!sharedProcess!sharedProcessMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!electron-main!main.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!electron-sandbox!issue!issueReporterMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!electron-sandbox!processExplorer!processExplorerMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!node!cli.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!code!node!cliProcessMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!platform!files!node!watcher!nsfw!watcherApp.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!platform!files!node!watcher!parcel!watcherApp.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!platform!files!node!watcher!unix!watcherApp.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!platform!sharedProcess!electron-browser!sharedProcessWorkerMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!platform!terminal!node!ptyHostMain.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!workbench!contrib!debug!node!telemetryApp.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!workbench!services!extensions!node!extensionHostProcess.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!workbench!services!extensions!worker!extensionHostWorker.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!workbench!services!search!node!searchApp.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/3a6960b964327f0e3882ce18fcebd07ed191b316/vs!workbench!workbench.desktop.main.nls.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/tcf.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.debug-auto-launch-ada1b51f9bd4dcd0adfdf488d93de988.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.extension-editing-eb28d44147621c7e797b42dc1c8f8a37.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.git-eb9638a05af8362814b609d1592f6ce3.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.github-authentication-c19dcdf32b2b14acb64b9e3bb7fbf291.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.github-dcf86a90eb60f5039ee3a237266f4865.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.markdown-language-features-f90df179fd8607f2047b4de933c59ee4.json /root/Jupyter/WSL/WSL_GNOME/.vscode/clp/6d1f187483a1f5610e666c4a6e996ddc.zh-cn/vscode.microsoft-authentication-0a5e033bbba9660bbae60f777c688a5d.json /root/Jupyter/WSL/WSL_GNOME/.vscode/code.lock /root/Jupyter/WSL/WSL_GNOME/.vscode/exthost Crash Reports/client_id /root/Jupyter/WSL/WSL_GNOME/.vscode/languagepacks.json /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/exthost1/exthost.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/exthost1/output_logging_20211113T141528/1-Microsoft Authentication.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/exthost1/output_logging_20211113T141528/2-Git.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/exthost1/output_logging_20211113T141528/3-GitHub Authentication.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/main.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/output_1_20211113T141523/extensions.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/output_1_20211113T141523/tasks.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/renderer1.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/sharedprocess.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/telemetry.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141521/userDataSync.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/exthost1/exthost.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/exthost1/output_logging_20211113T141621/1-Microsoft Authentication.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/exthost1/output_logging_20211113T141621/2-Git.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/exthost1/output_logging_20211113T141622/3-GitHub Authentication.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/main.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/output_1_20211113T141616/extensions.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/output_1_20211113T141616/tasks.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/renderer1.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/sharedprocess.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/telemetry.log /root/Jupyter/WSL/WSL_GNOME/.vscode/logs/20211113T141615/userDataSync.log /root/Jupyter/WSL/WSL_GNOME/.vscode/machineid /root/Jupyter/WSL/WSL_GNOME/.vscode/storage.json /root/Jupyter/WSL/WSL_GNOME/XWin_Cygwin.cmd /root/Jupyter/WSL/WSL_GNOME/setproxy.sh /root/Jupyter/WSL/WSL_GNOME/startXServer.sh /root/Jupyter/WSL/WSL_GNOME/startgnome.sh /root/Jupyter/WSL/WSL_GNOME/startjupyter-lab.sh /root/Jupyter/WSL/WSL_GNOME/startwslX /root/Jupyter/WSL/WSL_GNOME/ucrtbase.dll /root/Jupyter/WSL/WSL_GNOME/ucrtbased.dll /root/Jupyter/WSL/WSL_GNOME/unsetproxy.sh /root/Jupyter/WSL/WSL_GNOME/vcruntime140.dll /root/Jupyter/WSL/WSL_GNOME/vcruntime140d.dll /root/Jupyter/WSL/WSL_GNOME/wslfcitx.sh /root/Jupyter/WSL/WSL_GNOME/wslibus.sh /root/Jupyter/WSL/WSL_GNOME/wslpanel /root/Jupyter/WSL/WSL_GNOME/wslstartxfce4.sh /root/Jupyter/WSL/WSL_GNOME/wslterminator.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s fa8cbece658ac22dbb7b2149ba2b8069364a4461
+> git show --textconv :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s c2e777215853a53afbbac3a0274a80d0c273b8df
+> git show --textconv :README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.gitmodules
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/.gitmodules
+> git show --textconv :00-wsl2-systemd.sh
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 27
+git.stage.scmResources 27
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh /root/Jupyter/WSL/WSL_GNOME/clone.json /root/Jupyter/WSL/WSL_GNOME/install.sh /root/Jupyter/WSL/WSL_GNOME/ISwitch.exe /root/Jupyter/WSL/WSL_GNOME/ISwitch.ini /root/Jupyter/WSL/WSL_GNOME/ISwitchlab.dll /root/Jupyter/WSL/WSL_GNOME/LICENSE /root/Jupyter/WSL/WSL_GNOME/README.md /root/Jupyter/WSL/WSL_GNOME/runv4tov4.sh /root/Jupyter/WSL/WSL_GNOME/setguienv /root/Jupyter/WSL/WSL_GNOME/setproxy.sh /root/Jupyter/WSL/WSL_GNOME/setwsl2bridge.sh /root/Jupyter/WSL/WSL_GNOME/startgnome.sh /root/Jupyter/WSL/WSL_GNOME/startjupyter-lab.sh /root/Jupyter/WSL/WSL_GNOME/startwslX /root/Jupyter/WSL/WSL_GNOME/startXServer.sh /root/Jupyter/WSL/WSL_GNOME/ucrtbase.dll /root/Jupyter/WSL/WSL_GNOME/ucrtbased.dll /root/Jupyter/WSL/WSL_GNOME/unsetproxy.sh /root/Jupyter/WSL/WSL_GNOME/vcruntime140.dll /root/Jupyter/WSL/WSL_GNOME/vcruntime140d.dll /root/Jupyter/WSL/WSL_GNOME/wslfcitx.sh /root/Jupyter/WSL/WSL_GNOME/wslibus.sh /root/Jupyter/WSL/WSL_GNOME/wslpanel /root/Jupyter/WSL/WSL_GNOME/wslstartxfce4.sh /root/Jupyter/WSL/WSL_GNOME/wslterminator.sh /root/Jupyter/WSL/WSL_GNOME/XWin_Cygwin.cmd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git cat-file -s 317dafcd3ddd14f00fea37110831db001e5c3ead
+> git show --textconv :00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /root/Jupyter/WSL/WSL_GNOME/.gitmodules
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git cat-file -s 317dafcd3ddd14f00fea37110831db001e5c3ead
+> git show --textconv :00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/00-wsl2-systemd.sh
+> git cat-file -s 317dafcd3ddd14f00fea37110831db001e5c3ead
+> git show --textconv :00-wsl2-systemd.sh
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git push origin main:main
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/nufeng1999/WSL_GNOME.git/'
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/root/Jupyter/WSL/WSL_GNOME/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :README.md
+> git ls-files --stage -- /root/Jupyter/WSL/WSL_GNOME/README.md
+> git cat-file -s fa8cbece658ac22dbb7b2149ba2b8069364a4461
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git add -A -- .
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
