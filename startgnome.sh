@@ -1,3 +1,3 @@
 #!/bin/sh
-/usr/bin/00-wsl2-systemd.sh
-gnome_session &
+/usr/bin/wsl2-systemd
+sudo usr/bin/gnome-session &

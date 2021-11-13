@@ -25,8 +25,7 @@ ln -sf $PWD/wslpanel /usr/bin/wslpanel
 ln -sf $PWD/wslstartxfce4.sh /usr/bin/wslstartxfce4
 ln -sf $PWD/wslterminator.sh /usr/bin/wslterminator
 ln -sf $PWD/setwsl2bridge.sh  /usr/bin/setwsl2bridge
-ln -sf $PWD/00-wsl2-systemd.sh  /usr/bin/00-wsl2-systemd.sh
-ln -sf $PWD/startgnome.sh  /usr/bin/startgnome
+ln -sf $PWD/00-wsl2-systemd.sh  /usr/bin/wsl2-systemd
 
 chmod +x /usr/bin/setguienv
 chmod +x /usr/bin/setproxy

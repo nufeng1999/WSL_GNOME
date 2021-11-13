@@ -46,9 +46,9 @@ wsl --shutdown
 # reopening WSL
 wsl -u root -d Ubuntu
 
-execute gnome
-
-startgnome
+// execute gnome
+wsl2-systemd
+gnome-session &
 
 
 ***
