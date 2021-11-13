@@ -1,54 +1,54 @@
 ![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
-    <a href="https://github.com/nufeng1999/wsl_XWin_Cygwin"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://raw.githubusercontent.com/nufeng1999/WSL_GNOME/master/clone.json&logo=github"></a>
-# WSL_GNOME
+    <a href="https://github.com/nufeng1999/wsl_XWin_Cygwin"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://raw.githubusercontent.com/nufeng1999/WSL_GNOME/master/clone.json&logo=github"></a>  
+# WSL_GNOME  
 # Windows & Linux GUI Mix WSL GNOME Desktop  
 Use Cygwin's xwin to run WSL GNOME Desktop  
 
-ISwitch.exe --- Contrl app window maxsize,Resolving windows and WSL gui app input method conflicts
+ISwitch.exe --- Contrl app window maxsize,Resolving windows and WSL gui app input method conflicts  
 
-ISwitch.exe -c  --- Resolving windows and WSL gui app input method conflicts
+ISwitch.exe -c  --- Resolving windows and WSL gui app input method conflicts  
 
-ISwitch.exe -w  --- Contrl app window maxsize
+ISwitch.exe -w  --- Contrl app window maxsize  
 
-ISwitch.exe -s  --- Move task to background( default -c -w)
+ISwitch.exe -s  --- Move task to background( default -c -w)  
 
-[![Watch the video](https://github.com/nufeng74/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)
+[![Watch the video](https://github.com/nufeng74/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)  
 
-# Install
-Executing Windows terminal with administrator
+# Install  
+Executing Windows terminal with administrator  
 
-apt install gedit fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese
+apt install gedit fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
 
-apt install xfonts-wqy xfonts-unifont fonts-wqy*
+apt install xfonts-wqy xfonts-unifont fonts-wqy*  
 
-apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans
+apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans  
 
-apt install daemonize gnome
+apt install daemonize gnome  
 
-mkdir /opt/WSL
+mkdir /opt/WSL  
 
-cd /opt/WSL
+cd /opt/WSL  
 
 git clone https://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
 
-or
+or  
 
 git clone git://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
 
-cd WSL_GNOME
+cd WSL_GNOME  
 
 chmod +x ./install.sh;./install.sh
 # Close WSL
-DOS/PowerShell
+DOS/PowerShell  
 
-wsl --shutdown
+wsl --shutdown  
 
-# reopening WSL
-wsl -u root -d Ubuntu
+# reopening WSL  
+wsl -u root -d Ubuntu  
 
-// execute gnome
-wsl2-systemd
-gnome-session &
+// execute gnome  
+wsl2-systemd  
+gnome-session &  
 
 
 ***
