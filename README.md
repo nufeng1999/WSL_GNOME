@@ -1,6 +1,6 @@
-![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/wsl_XWin_Cygwin) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/wsl_XWin_Cygwin.svg">
-    <a href="https://github.com/nufeng1999/wsl_XWin_Cygwin"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://raw.githubusercontent.com/nufeng1999/wsl_XWin_Cygwin/master/clone.json&logo=github"></a>
-# wsl_XWin_Cygwin
+![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
+    <a href="https://github.com/nufeng1999/wsl_XWin_Cygwin"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://raw.githubusercontent.com/nufeng1999/WSL_GNOME/master/clone.json&logo=github"></a>
+# WSL_GNOME
 # Windows & Linux GUI Mix WSL GNOME Desktop  
 Use Cygwin's xwin to run WSL GNOME Desktop  
 
