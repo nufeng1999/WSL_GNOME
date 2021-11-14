@@ -14,6 +14,9 @@ ISwitch.exe -s  --- Move task to background( default -c -w)
 
 [![Watch the video](https://github.com/nufeng74/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)  
 
+<iframe src="//player.bilibili.com/player.html?aid=336724603&bvid=BV1CR4y1t7ZY&cid=441798601&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+
 # Install  
 Executing Windows terminal with administrator  
 
