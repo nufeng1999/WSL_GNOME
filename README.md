@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
-    <a href="https://github.com/nufeng1999/wsl_XWin_Cygwin"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://raw.githubusercontent.com/nufeng1999/WSL_GNOME/master/clone.json&logo=github"></a>  
+![](https://nufeng1999.github.io/imgs/img/20211115_111705.gif)
 # WSL_GNOME  
 # Windows & Linux GUI Mix WSL GNOME Desktop  
 Use Cygwin's xwin to run WSL GNOME Desktop  
@@ -14,8 +14,9 @@ ISwitch.exe -s  --- Move task to background( default -c -w)
 
 [![Watch the video](https://github.com/nufeng74/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)  
 
-<iframe src="//player.bilibili.com/player.html?aid=336724603&bvid=BV1CR4y1t7ZY&cid=441798601&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
+![](https://nufeng1999.github.io/imgs/img/20211115_110932.gif)
+![](https://nufeng1999.github.io/imgs/img/20211115_111705.gif)
+![](https://nufeng1999.github.io/imgs/img/20211115_112440.gif)
 
 # Install  
 Executing Windows terminal with administrator  
