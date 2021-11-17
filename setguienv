@@ -39,7 +39,12 @@ export DISPLAY=$HOSTIP:0.0
 export PULSE_SERVER=tcp:$HOSTIP
 
 local_ip=`/sbin/ifconfig -a|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
-/mnt/c/WINDOWS/System32/cmd.exe /C setx WSLHOSTIP $local_ip  > /dev/null 
+local_hostname=`hostname`
+/mnt/c/WINDOWS/System32/cmd.exe /C setx WSLHOSTIP $local_ip  >  /dev/null 2>&1 
+#update Windows C:\Windows\System32\drivers\etc\hosts hostname 
+sed -i "/ $local_hostname/d" /mnt/c/WINDOWS/System32/drivers/etc/hosts
+echo "$local_ip $local_hostname " >>/mnt/c/WINDOWS/System32/drivers/etc/hosts
+
 
 #DESKTOP_STARTUP_ID
 #XDG_DATA_HOME
@@ -63,7 +68,5 @@ export QT_IM_MODULE=fcitx
 
 /usr/bin/startXServer
 export PATH=/opt/dart-sdk/bin:/opt/flutter/bin:$PATH
-
-
 
 alias reboot='sudo /usr/bin/reboot'
