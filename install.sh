@@ -22,6 +22,7 @@ ln -sf $PWD/startXServer.sh /usr/bin/startXServer
 ln -sf $PWD/wslfcitx.sh /usr/bin/wslfcitx
 ln -sf $PWD/wslibus.sh /usr/bin/wslibus
 ln -sf $PWD/wslpanel /usr/bin/wslpanel
+ln -sf $PWD/restartudev.sh /usr/bin/restartudev
 ln -sf $PWD/wslstartxfce4.sh /usr/bin/wslstartxfce4
 ln -sf $PWD/wslterminator.sh /usr/bin/wslterminator
 ln -sf $PWD/setwsl2bridge.sh  /usr/bin/setwsl2bridge
