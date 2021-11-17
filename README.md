@@ -18,7 +18,11 @@ ISwitch.exe -s  --- Move task to background( default -c -w)
 ![](https://github.com/nufeng1999/imgs/blob/main/img/20211115_112440.gif?raw=true)
 
 # Install  
-Executing Windows terminal with administrator  
+Important Notice :
+1.Executing Windows terminal with administrator  
+2.Executing WSL with root (wsl -u root -d Ubuntu )  
+  
+su - root
 
 apt install gedit fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
 
