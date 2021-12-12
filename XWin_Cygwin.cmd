@@ -52,15 +52,15 @@ if '%1'=='0' (
   rem TASKKILL /F /IM  ISwitch.exe 
   rem TASKKILL /F /IM XWin.exe 
   rem multiwindow mode
-  C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall ISwitch;killall XWin"
-  start C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall ISwitch.exe;cd /cygdrive/c/ISwitch/;./ISwitch.exe -c & cd;export LIBGL_ALWAYS_SOFTWARE=1;XWin.exe -ac -terminate -lesspointer -multiwindow -compositewm -compositealpha -engine 4 -silent-dup-error -listen tcp -nolisten inet6 -hostintitle -clipboard +iglx -nowgl -noreset   :0;killall ISwitch.exe"
+  C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c  "killall -9 XWin;killall ISwitch"
+  start C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall ISwitch.exe;cd /cygdrive/c/ISwitch/;./ISwitch.exe -c & cd;export LIBGL_ALWAYS_SOFTWARE=1;XWin.exe -ac -terminate -lesspointer -multiwindow -compositewm -compositealpha -engine 1 -silent-dup-error -listen tcp -nolisten inet6 -hostintitle -clipboard +iglx -nowgl -noreset   :0;killall ISwitch.exe"
 
 ) else (
   rem TASKKILL /F /IM  ISwitch.exe 
   rem TASKKILL /F /IM XWin.exe 
 
   rem rootless mode
-  C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall ISwitch;killall XWin"
+  C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall -9 XWin;killall ISwitch"
   start C:\cygwin64\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall ISwitch.exe;cd /cygdrive/c/ISwitch/;./ISwitch.exe -c & cd;export LIBGL_ALWAYS_SOFTWARE=1;XWin.exe -ac -terminate -lesspointer -rootless -notrayicon -compositewm -compositealpha -engine 4 -silent-dup-error -listen tcp -nolisten inet6 -hostintitle -clipboard +iglx -nowgl -noreset  -dpms  :0;killall ISwitch.exe"
 
 )
