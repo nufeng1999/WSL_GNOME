@@ -7,3 +7,5 @@ export use_proxy=off
 export https_proxy=
 export http_proxy=
 export ftp_proxy=
+gsettings set org.gnome.system.proxy mode 'none'
+#gsettings set org.gnome.system.proxy mode 'auto'
