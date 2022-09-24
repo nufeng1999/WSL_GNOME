@@ -2,8 +2,10 @@
 
 #mkdir -p "$HOME"/.local/share/keyrings
 alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
-alias code='dbus-launch /usr/bin/code --user-data-dir  --no-sandbox'
+alias code='dbus-launch /usr/bin/code --user-data-dir=~/.vscode  --no-sandbox'
 alias jupyter-lab='jupyter-lab --ip=0.0.0.0 --allow-root'
+alias reboot='sudo /usr/bin/reboot'
+
 export JAVA_HOME=/usr/lib/jvm/jdk
 
 LANG=zh_CN.UTF-8
@@ -71,6 +73,7 @@ export RUNLEVEL=3
 #export XMODIFIERS=@im=ibus
 #export QT_IM_MODULE=ibus
 #export XIM_PROGRAM="ibus-daemon"
+
 export NO_AT_BRIDGE=1
 export LC_CTYPE=zh_CN.UTF-8
 export XMODIFIERS=@im=fcitx
@@ -81,7 +84,6 @@ export QT_IM_MODULE=fcitx
 #export SSH_AUTH_SOCK
 #mkdir -p "$HOME"/.local/share/keyrings
 
-alias reboot='sudo /usr/bin/reboot'
 ######################################################
 ps -fe|grep fcitx |grep -v grep > /dev/null
 if [ $? -eq 0 ]; then  
@@ -91,14 +93,14 @@ fi
 
 local_ip=`/sbin/ifconfig -a|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
 local_hostname=`hostname`
-/mnt/c/WINDOWS/System32/cmd.exe /C setx WSLHOSTIP $local_ip  >  /dev/null 2>&1 
+/mnt/c/WINDOWS/System32/cmd.exe /C setx WSLHOSTIP $local_ip  >  /dev/null 2>&1 &
 #update Windows C:\Windows\System32\drivers\etc\hosts hostname 
-sed -i "/ $local_hostname/d" /mnt/c/WINDOWS/System32/drivers/etc/hosts
-echo "$local_ip $local_hostname " >>/mnt/c/WINDOWS/System32/drivers/etc/hosts
-
+#Modify permissions of hosts file runas /user:Administrator C:\WINDOWS\System32\cacls.exe C:\WINDOWS\System32\drivers\etc\hosts   /t /e /c /g users:f
+/mnt/c/WINDOWS/System32/cacls.exe "C:\\WINDOWS\\System32\\drivers\\etc\\hosts"   /t /e /c /g users:f >  /dev/null 2>&1
+sed -i "/ $local_hostname/d" /mnt/c/WINDOWS/System32/drivers/etc/hosts >  /dev/null 2>&1 &
+echo "$local_ip $local_hostname " >>/mnt/c/WINDOWS/System32/drivers/etc/hosts    2>/dev/null &
 
 /usr/bin/wslfcitx
 
 /usr/bin/startXServer
-export PATH=/opt/dart-sdk/bin:/opt/flutter/bin:$PATH
 

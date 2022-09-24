@@ -1,5 +1,5 @@
 #!/bin/bash
-#export DISPLAY=127.0.0.1:0.0
+
 PROC_NAME=fcitx
 ProcNumber=`ps -ef |grep -w $PROC_NAME|grep -v grep|wc -l`
 if [ $ProcNumber -le 0 ];then
@@ -8,8 +8,6 @@ if [ $ProcNumber -le 0 ];then
 	export XMODIFIERS=@im=fcitx
 	export GTK_IM_MODULE=fcitx
 	export QT_IM_MODULE=fcitx
-	#cd /mnt/h/ISwitch
-	#./ISwitch.exe -c &
 	cd
 	/usr/bin/fcitx -d -r >/dev/null 2>&1 &
 fi
