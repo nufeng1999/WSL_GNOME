@@ -2,7 +2,7 @@
 #export WAYLAND_DISPLAY=wayland-0
 #export DISPLAY=:0
 update-binfmts --disable cli
-/mnt/c/WINDOWS/System32/cmd.exe /c "C:\\XWin_Cygwin.cmd 1" > /dev/null 2>&1 &
+/mnt/c/WINDOWS/System32/cmd.exe /c "C:\\ISwitch\\XWin_Cygwin.cmd 1" > /dev/null 2>&1 &
 sleep 5
 /usr/bin/fcitx -d -r >/dev/null 2>&1 &
 export GDK_SCALE=1

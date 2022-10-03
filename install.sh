@@ -4,12 +4,18 @@ winwsltemp=`wslpath -u $wintemp`
 winwsltemp=${winwsltemp//$'\r'}
 winwsltemp=${winwsltemp//$'\n'}
 cygwininstallfile=`echo $winwsltemp/cygwin-install.bat`
+ISwitchinstallfile=`echo $winwsltemp/ISwitch.msi`
+
 cp $PWD/cygwin-auto-install/cygwin-install.bat $cygwininstallfile
-cp $PWD/ucrtbase.dll /mnt/c/WINDOWS/System32/
-cp $PWD/ucrtbased.dll /mnt/c/WINDOWS/System32/
-cp $PWD/vcruntime140.dll /mnt/c/WINDOWS/System32/
-cp $PWD/vcruntime140d.dll /mnt/c/WINDOWS/System32/
+cp $PWD/ISwitch.msi $ISwitchinstallfile
+#cp $PWD/ucrtbase.dll /mnt/c/WINDOWS/System32/
+#cp $PWD/ucrtbased.dll /mnt/c/WINDOWS/System32/
+#cp $PWD/vcruntime140.dll /mnt/c/WINDOWS/System32/
+#cp $PWD/vcruntime140d.dll /mnt/c/WINDOWS/System32/
+
+/mnt/c/WINDOWS/System32/cmd.exe /c "$wintemp\\ISwitch.msi"
 /mnt/c/WINDOWS/System32/cmd.exe /c "$wintemp\\cygwin-install.bat"
+
 ln -sf $PWD/setguienv.sh /usr/bin/setguienv
 ln -sf $PWD/setproxy.sh /usr/bin/setproxy
 ln -sf $PWD/unsetproxy.sh /usr/bin/unsetproxy
@@ -44,8 +50,8 @@ chmod +x /usr/bin/setresolv.sh
 chmod +x /usr/bin/restartudev
 /mnt/c/WINDOWS/System32/cmd.exe /c "taskkill /F /IM ISwitch.exe" > /dev/null 2>&1
 mkdir -p /mnt/c/ISwitch
-cp -f $PWD/ISwitch* /mnt/c/ISwitch/ > /dev/null 2>&1
-cp -f $PWD/XWin_Cygwin.cmd /mnt/c/XWin_Cygwin.cmd > /dev/null 2>&1
+#cp -f $PWD/ISwitch* /mnt/c/ISwitch/ > /dev/null 2>&1
+cp -f $PWD/XWin_Cygwin.cmd /mnt/c/ISwitch/XWin_Cygwin.cmd > /dev/null 2>&1
 INCLUDENumber=`grep -i "setguienv" ~/.bashrc|wc -l`
 if [ $INCLUDENumber -le 0 ];then
 	echo '. /usr/bin/setguienv' >> ~/.bashrc

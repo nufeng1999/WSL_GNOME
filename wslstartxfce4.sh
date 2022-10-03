@@ -1,7 +1,5 @@
 #! /bin/sh
-#/root/wslfcitx.sh
-#export DISPLAY=127.0.0.1:0.0
-#export DISPLAY=192.168.0.152:0.0
+#/usr/bin/wslfcitx
 export PULSE_SERVER=tcp:$HOSTIP
 export NO_AT_BRIDGE=1
 export LC_CTYPE=zh_CN.UTF-8

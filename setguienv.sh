@@ -33,6 +33,11 @@ cd ~
 export DONT_PROMPT_WSL_INSTALL=1
 
 export LIBGL_ALWAYS_INDIRECT=
+export LIBGL_ALWAYS_SOFTWARE=1
+#export GALLIUM_DRIVER=softpipe
+#export GALLIUM_DRIVER=llvmpipe
+#export GALLIUM_DRIVER=swr
+
 export GTK_THEME="WhiteSur-dark-solid"
 export GDK_THEME="WhiteSur-dark-solid"
 export XDG_SESSION_TYPE="x11"
