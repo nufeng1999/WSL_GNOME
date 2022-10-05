@@ -73,13 +73,14 @@ export RUNLEVEL=3
 #GDK_BACKEND
 #GDK_RENDERING
 #GDK_PIXBUF_MODULE_FILE
+
+export NO_AT_BRIDGE=1
 #export GTK_IM_MODULE=ibus
 #export GTK_IM_MODULE_FILE
 #export XMODIFIERS=@im=ibus
 #export QT_IM_MODULE=ibus
 #export XIM_PROGRAM="ibus-daemon"
 
-export NO_AT_BRIDGE=1
 export LC_CTYPE=zh_CN.UTF-8
 export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=fcitx
@@ -88,7 +89,7 @@ export QT_IM_MODULE=fcitx
 #eval $(/usr/bin/gnome-keyring-daemon --start)
 #export SSH_AUTH_SOCK
 #mkdir -p "$HOME"/.local/share/keyrings
-
+update-binfmts --disable cli >  /dev/null 2>&1 &
 ######################################################
 ps -fe|grep fcitx |grep -v grep > /dev/null
 if [ $? -eq 0 ]; then  
