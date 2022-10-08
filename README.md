@@ -41,9 +41,11 @@ or
 
 git clone git://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
 
+cd WSL_GNOME/cygwin-auto-install    
+git checkout master  
+cd ../   
 
 ### Install  WSL_GNOME  
-cd WSL_GNOME  
 
 chmod +x ./install.sh   
 ./install.sh   
@@ -54,8 +56,7 @@ OR
 
    
 0.67.6+version of wsl already supports systemd  
-Edit the file/etc/wsl.conf  
-  
+Edit the file /etc/wsl.conf  
 [boot]  
 systemd=true  
   
