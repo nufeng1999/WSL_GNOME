@@ -22,17 +22,14 @@ Important Notice :
 1.Executing Windows terminal with administrator  
 2.Executing WSL with root (wsl -u root -d Ubuntu )  
   
-su - root
+su - root  
 
-apt install gedit fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
-
+apt install net-tools hwdata gedit  
+apt install fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
 apt install xfonts-wqy xfonts-unifont fonts-wqy*  
-
-apt install linux-tools-5.4.0-77-generic hwdata  
-
+apt install linux-tools-5.4.0-77-generic  
 apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans  
-
-apt install daemonize gnome  
+apt install daemonize gdm3 gnome 
 
 mkdir /opt/WSL  
 
@@ -44,9 +41,15 @@ or
 
 git clone git://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
 
+
+### Install  WSL_GNOME  
 cd WSL_GNOME  
 
-chmod +x ./install.sh;./install.sh
+chmod +x ./install.sh  
+./install.sh -c "C:\\cygwin64" -i "C:\\ISwitch"
+OR  
+./install.sh --cygwindir="C:\\cygwin64" --iswitchdir "C:\\ISwitch"
+OR  
 # Close WSL
 DOS/PowerShell  
 

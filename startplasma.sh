@@ -1,6 +1,6 @@
 #!/bin/sh
 update-binfmts --disable cli
-/mnt/c/WINDOWS/System32/cmd.exe /c "C:\\ISwitch\\XWin_Cygwin.cmd 1" > /dev/null 2>&1 &
+/mnt/c/WINDOWS/System32/cmd.exe /c "$ISWITCHDIR\\XWin_Cygwin.cmd 1" > /dev/null 2>&1 &
 sleep 5
 
 export DONT_PROMPT_WSL_INSTALL=1

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+. /usr/bin/cygwinXenv
 #mkdir -p "$HOME"/.local/share/keyrings
 alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
 alias code='dbus-launch /usr/bin/code --user-data-dir=~/.vscode  --no-sandbox'
@@ -43,8 +43,10 @@ export GDK_THEME="WhiteSur-dark-solid"
 export XDG_SESSION_TYPE="x11"
 export GDK_SCALE=1
 export GDK_DPI_SCALE=1.75
+#export GDK_DPI_SCALE=1
 #export ELM_SCALE=2
 export QT_SCALE_FACTOR=1.75
+#export QT_SCALE_FACTOR=1
 export QT_FONT_DPI=98
 #export QT_STYLE_OVERRIDE=adwaita
 export QT_QPA_PLATFORMTHEME=gtk2

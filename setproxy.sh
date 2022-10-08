@@ -11,7 +11,7 @@ export https_proxy=$HTTPPROXY
 export http_proxy=$HTTPPROXY
 export ftp_proxy=$HTTPPROXY
 export use_proxy=on
-#export wait=15
+#export wait=15 
 gsettings set org.gnome.system.proxy.http host http://$HOSTIP  >/dev/null 2>&1
 gsettings set org.gnome.system.proxy.http port 1080 >/dev/null 2>&1
 gsettings set org.gnome.system.proxy.https host http://$HOSTIP >/dev/null 2>&1
