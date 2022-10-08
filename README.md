@@ -52,6 +52,13 @@ OR
 OR  
 ./install.sh --cygwindir="C:\\\\cygwin64" --iswitchdir "C:\\\\ISwitch"  
 
+   
+0.67.6+version of wsl already supports systemd  
+Edit the file/etc/wsl.conf  
+  
+[boot]  
+systemd=true  
+  
 # Close WSL
 DOS/PowerShell  
 
@@ -61,8 +68,10 @@ wsl --shutdown
 wsl -u root -d Ubuntu  
 
 // execute gnome  
-wsl2-systemd  
-gnome-session &  
+~~wsl2-systemd~~  
+~~gnome-session &~~   
+
+startgnome2
 
 
 ***
