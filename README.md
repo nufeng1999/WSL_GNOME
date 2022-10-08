@@ -48,9 +48,9 @@ cd WSL_GNOME
 chmod +x ./install.sh   
 ./install.sh   
 OR   
-./install.sh -c "C:\\cygwin64" -i "C:\\ISwitch"  
+./install.sh -c "C:\\\\cygwin64" -i "C:\\\\ISwitch"  
 OR  
-./install.sh --cygwindir="C:\\cygwin64" --iswitchdir "C:\\ISwitch"  
+./install.sh --cygwindir="C:\\\\cygwin64" --iswitchdir "C:\\\\ISwitch"  
 
 # Close WSL
 DOS/PowerShell  
