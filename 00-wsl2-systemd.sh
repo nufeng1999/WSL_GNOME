@@ -1,7 +1,8 @@
 #! /bin/bash
 #export WAYLAND_DISPLAY=wayland-0
 #export DISPLAY=:0
-/mnt/c/WINDOWS/System32/cmd.exe /c "C:\\ISwitch\\XWin_Cygwin.cmd 1" > /dev/null 2>&1 &
+/usr/bin/cygXS -c "$CYGWINDIR" -i "$ISWITCHDIR" -n9 > /dev/null 2>&1 &
+/usr/bin/cygXS -c "$CYGWINDIR" -i "$ISWITCHDIR" -n0 > /dev/null 2>&1 &
 SYSTEMD_PID=$(ps -ef | grep '/lib/systemd/systemd --system-unit=basic.target$' | grep -v unshare | awk '{print $2}')
 if [ -z "$SYSTEMD_PID" ]; then
    sudo /usr/bin/daemonize /usr/bin/unshare --fork --pid --mount-proc /lib/systemd/systemd --system-unit=basic.target

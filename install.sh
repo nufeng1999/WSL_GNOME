@@ -12,31 +12,6 @@ cat << EOF > $PWD/cygwinXenv.sh
 export CYGWINDIR="$CYGWINDIR"
 export ISWITCHDIR="$ISWITCHDIR"
 EOF
-#Generate file XWin_Cygwin.sh
-cat << EOF > $PWD/XWin_Cygwin.cmd
-echo off
-cd $CYGWINDIR
-
-if '%1'=='0' (
-  rem TASKKILL /F /IM  ISwitch.exe 
-  rem TASKKILL /F /IM XWin.exe 
-  rem multiwindow mode
-  $CYGWINDIR\bin\run.exe --quote /usr/bin/bash.exe -l -c  "killall -9 XWin;killall ISwitch"
-  start $CYGWINDIR\bin\run.exe --quote /usr/bin/bash.exe -l -c  "killall ISwitch;cd cd \`cygpath -u "$ISWITCHDIR"\`;./ISwitch.exe -c & cd;export LIBGL_ALWAYS_SOFTWARE=1;XWin.exe -ac -terminate -lesspointer -multiwindow -compositewm -compositealpha -engine 1 -silent-dup-error -listen tcp -nolisten inet6 -hostintitle -clipboard +iglx -wgl -noreset   :0;killall ISwitch"
-
-) else (
-  rem TASKKILL /F /IM  ISwitch.exe 
-  rem TASKKILL /F /IM XWin.exe 
-
-  rem rootless mode
-  $CYGWINDIR\bin\run.exe --quote /usr/bin/bash.exe -l -c "killall -9 XWin;killall ISwitch"
-  start $CYGWINDIR\bin\run.exe --quote /usr/bin/bash.exe -l -c "sleep 2;killall ISwitch;cd \`cygpath -u "$ISWITCHDIR"\`;./ISwitch.exe -c & cd;export LIBGL_ALWAYS_SOFTWARE=1;XWin.exe -ac -terminate -lesspointer -rootless -notrayicon -compositewm -compositealpha -engine 1 -silent-dup-error -listen tcp -nolisten inet6 -hostintitle -clipboard +iglx -wgl -noreset  -dpms  :0;killall ISwitch"
-
-)
-
-exit
-
-EOF
 /mnt/c/WINDOWS/System32/cmd.exe /c "taskkill /F /IM ISwitch.exe" > /dev/null 2>&1
 
 wintemp=`/mnt/c/WINDOWS/System32/cmd.exe /c "echo %TEMP%" 2>/dev/null|head -n 1 |tail -n 1`
@@ -76,7 +51,9 @@ ln -sf $PWD/restartudev.sh /usr/bin/restartudev
 ln -sf $PWD/start-xfce4-panel.sh /usr/bin/start-xfce4-panel
 ln -sf $PWD/start-xfce4.sh /usr/bin/start-xfce4
 ln -sf $PWD/startgnome2.sh /usr/bin/startgnome2
+ln -sf $PWD/cygXS /usr/bin/cygXS
 
+chmod +x /usr/bin/cygXS
 chmod +x /usr/bin/cygwinXenv
 chmod +x /usr/bin/setguienv
 chmod +x /usr/bin/setproxy
@@ -96,12 +73,6 @@ chmod +x /usr/bin/restartudev
 
 #-------------------
 /mnt/c/WINDOWS/System32/cmd.exe /c "taskkill /F /IM ISwitch.exe" > /dev/null 2>&1
-#mkdir -p /mnt/c/ISwitch
-#cp -f $PWD/ISwitch* /mnt/c/ISwitch/ > /dev/null 2>&1
-#cp -f $PWD/XWin_Cygwin.cmd /mnt/c/ISwitch/XWin_Cygwin.cmd > /dev/null 2>&1
-
-
-cp -f $PWD/XWin_Cygwin.cmd `wslpath $ISWITCHDIR/XWin_Cygwin.cmd` > /dev/null 2>&1
 
 INCLUDENumber=`grep -i "setguienv" ~/.bashrc|wc -l`
 if [ $INCLUDENumber -le 0 ];then
