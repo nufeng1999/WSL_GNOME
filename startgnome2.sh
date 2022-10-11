@@ -1,7 +1,7 @@
 #!/bin/sh
 #export WAYLAND_DISPLAY=wayland-0
 #export DISPLAY=:0
-update-binfmts --disable cli
+#update-binfmts --disable cli
 /usr/bin/cygXS -c "$CYGWINDIR" -i "$ISWITCHDIR" -n9 > /dev/null 2>&1 &
 /usr/bin/cygXS -c "$CYGWINDIR" -i "$ISWITCHDIR" -n1 > /dev/null 2>&1 &
 sleep 5
