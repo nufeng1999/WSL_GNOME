@@ -1,6 +1,7 @@
 #!/bin/bash
 . /usr/bin/cygwinXenv
 #mkdir -p "$HOME"/.local/share/keyrings
+alias docker='dbus-launch gedit'
 alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
 alias code='dbus-launch /usr/bin/code --user-data-dir=$HOME/.vscode  --no-sandbox'
 alias jupyter-lab='jupyter-lab --ip=0.0.0.0 --allow-root'
@@ -38,8 +39,8 @@ export LIBGL_ALWAYS_SOFTWARE=1
 #export GALLIUM_DRIVER=llvmpipe
 #export GALLIUM_DRIVER=swr
 
-export GTK_THEME="WhiteSur-dark-solid"
-export GDK_THEME="WhiteSur-dark-solid"
+#export GTK_THEME="WhiteSur-dark-solid"
+#export GDK_THEME="WhiteSur-dark-solid"
 export XDG_SESSION_TYPE="x11"
 export GDK_DPI_SCALE=1.75
 export QT_SCALE_FACTOR=1.75
