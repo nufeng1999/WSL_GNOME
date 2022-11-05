@@ -1,7 +1,18 @@
 #!/bin/bash
+
+function init_info(){
+echo "***************************************"
+echo    X environment initializing
+}
+function ready_info(){
+echo    X environment is ready
+echo "***************************************"
+}
+
+init_info
 . /usr/bin/cygwinXenv
 #mkdir -p "$HOME"/.local/share/keyrings
-alias docker='dbus-launch gedit'
+alias gedit='dbus-launch gedit'
 alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
 alias code='dbus-launch /usr/bin/code --user-data-dir=$HOME/.vscode  --no-sandbox'
 alias jupyter-lab='jupyter-lab --ip=0.0.0.0 --allow-root'
@@ -100,8 +111,9 @@ export QT_IM_MODULE=fcitx
 #update-binfmts --disable cli >  /dev/null 2>&1 &
 ######################################################
 ps -fe|grep fcitx |grep -v grep > /dev/null
-if [ $? -eq 0 ]; then  
-    return
+if [ $? -eq 0 ]; then
+	ready_info
+	return
 fi
 
 
@@ -117,4 +129,6 @@ echo "$local_ip $local_hostname " >>/mnt/c/WINDOWS/System32/drivers/etc/hosts   
 /usr/bin/wslfcitx
 
 /usr/bin/startXServer
+
+ready_info
 
