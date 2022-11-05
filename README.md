@@ -27,8 +27,8 @@ su - root
 apt install net-tools hwdata gedit  
 apt install fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
 apt install xfonts-wqy xfonts-unifont fonts-wqy*  
-
-##It depends on the version
+  
+##It depends on the version  
 apt install linux-tools-5.4.0-77-generic  
 
 apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans  
