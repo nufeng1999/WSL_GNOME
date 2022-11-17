@@ -111,7 +111,7 @@ export QT_IM_MODULE=fcitx
 #update-binfmts --disable cli >  /dev/null 2>&1 &
 ######################################################
 ps -fe|grep fcitx |grep -v grep > /dev/null
-if [ $? -eq 0 ]; then
+if [ $? -eq 0 -a -z "$DISPLAY" ]; then
 	ready_info
 	return
 fi
