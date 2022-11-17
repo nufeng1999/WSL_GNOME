@@ -110,12 +110,20 @@ export QT_IM_MODULE=fcitx
 #mkdir -p "$HOME"/.local/share/keyrings
 #update-binfmts --disable cli >  /dev/null 2>&1 &
 ######################################################
-ps -fe|grep fcitx |grep -v grep > /dev/null
-if [ $? -eq 0 ]; then
+ProcNumber=`ps -ef|grep xfsettingsd |grep -v grep|wc -l`
+if [ $ProcNumber -gt 0 ]; then
 	ready_info
 	return
 fi
-
+#echo  "----->$ProcNumber"
+SYSTEMD_PID=$(ps -ef | grep '/lib/systemd/systemd --system-unit=basic.target' | grep -v unshare|grep -v grep | awk '{print $2}')
+if [ -n "$SYSTEMD_PID" ] && [ "$SYSTEMD_PID" == "1" ]; then
+	echo "SYSTEMD_PID = $SYSTEMD_PID"
+	export GDK_SCALE=1
+	export GDK_DPI_SCALE=1
+	ready_info
+	return
+fi
 
 local_ip=`/sbin/ifconfig -a|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
 local_hostname=`hostname`
