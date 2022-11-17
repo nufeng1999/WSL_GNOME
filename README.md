@@ -72,6 +72,7 @@ wsl --shutdown
 wsl -u root -d Ubuntu  
 
 // execute gnome  
+~~startwslX 1~~
 ~~wsl2-systemd~~  
 ~~gnome-session &~~   
 
