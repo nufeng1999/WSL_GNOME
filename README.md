@@ -11,7 +11,7 @@ ISwitch.exe -w  --- Contrl app window maxsize
 
 ISwitch.exe -s  --- Move task to background( default -c -w)  
 
-[![Watch the video](https://github.com/nufeng74/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)  
+[![Watch the video](https://github.com/nufeng1999/wsl_XWin_Cygwin/blob/main/20210612_071703.gif?raw=true)](https://youtu.be/iy8j-fD82aQ)  
 
 ![](https://github.com/nufeng1999/imgs/blob/main/img/20211115_110932.gif?raw=true)
 ![](https://github.com/nufeng1999/imgs/blob/main/img/20211115_111705.gif?raw=true)
@@ -21,8 +21,13 @@ ISwitch.exe -s  --- Move task to background( default -c -w)
 Important Notice :  
 1.Executing Windows terminal with administrator  
 2.Executing WSL with root (wsl -u root -d Ubuntu )  
-  
-su - root  
+## Powershell /DOS  
+notepad %USERPROFILE%\.wslconfig     
+[wsl2]  
+guiApplications=false   
+
+## WSL  
+su - root    
 
 apt install net-tools hwdata gedit  
 apt install fcitx fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  

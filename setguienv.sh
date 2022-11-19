@@ -110,7 +110,7 @@ export QT_IM_MODULE=fcitx
 #mkdir -p "$HOME"/.local/share/keyrings
 #update-binfmts --disable cli >  /dev/null 2>&1 &
 ######################################################
-ProcNumber=`ps -ef|grep xfsettingsd |grep -v grep|wc -l`
+ProcNumber=`ps -ef|grep fcitx |grep -v grep|wc -l`
 if [ $ProcNumber -gt 0 ]; then
 	ready_info
 	return
