@@ -1,4 +1,5 @@
 #! /bin/bash
+cd /mnt/c
 #export WAYLAND_DISPLAY=wayland-0
 #export DISPLAY=:0
 /usr/bin/cygXS -c "$CYGWINDIR" -i "$ISWITCHDIR" -n9 > /dev/null 2>&1 &
@@ -13,3 +14,4 @@ if [ -n "$SYSTEMD_PID" ] && [ "$SYSTEMD_PID" != "1" ]; then
     exec sudo /usr/bin/nsenter -t $SYSTEMD_PID -m -p su - $LOGNAME
     sleep 3
 fi
+cd $HOME
