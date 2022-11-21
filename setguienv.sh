@@ -69,7 +69,7 @@ export QT_FONT_DPI=98
 export QT_QPA_PLATFORMTHEME=gtk2
 export DESKTOP_SESSION=gnome
 
-export XDG_RUNTIME_DIR=/usr/lib/
+export XDG_RUNTIME_DIR=/run/user/`id -u`/
 export RUNLEVEL=3
 
 #GDK_SYNCHRONIZE

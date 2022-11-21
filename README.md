@@ -80,8 +80,10 @@ wsl -u root -d Ubuntu
 ~~wsl2-systemd~~  
 ~~gnome-session &~~   
 
-startgnome2
-
+startgnome2  
+// other user  
+. setguienv  
+startgnome2  
 
 ***
 If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
