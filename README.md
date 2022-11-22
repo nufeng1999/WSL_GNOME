@@ -81,7 +81,7 @@ wsl -u root -d Ubuntu
 ~~gnome-session &~~   
 
 startgnome2  
-// other user  
+// other user execute gnome  
 . setguienv  
 startgnome2  
 
