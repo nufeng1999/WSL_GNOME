@@ -89,16 +89,22 @@ startgnome2
 If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
 
 如果你感觉这些内容对你有所帮助，可以向开发者进行友情赞助。赞助后你将可能获得更多帮助。  
-技术支持赞助群名称：  
-WSL_XWin_Cygwin  
-群   号：  
-1014866104  
+
+<img src="https://nufeng1999.github.io/imgs/kszz.png"/>  
+
+<img src="https://nufeng1999.github.io/imgs/pddzz.png"/>  
+
+<img src="https://nufeng1999.github.io/imgs/ttzz.png"/>  
 
 <img src="https://nufeng1999.github.io/imgs/wxzf.png"/>
 WeChat Pay（微信方式赞助）
   
 <img src="https://nufeng1999.github.io/imgs/zfbzf.png"/>
 Alipay（支付宝方式赞助）  
-  
+    
+技术支持赞助群名称：  
+WSL_XWin_Cygwin  
+群   号：  
+1014866104  
 <img src="https://nufeng1999.github.io/imgs/img/WSL_XWin_Cygwin.png"/>  
 QQ技术支持赞助群
