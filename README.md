@@ -90,11 +90,11 @@ If you feel that these contents are helpful to you, you can make friendly sponso
 
 如果你感觉这些内容对你有所帮助，可以向开发者进行友情赞助。赞助后你将可能获得更多帮助。  
 
-<img src="https://nufeng1999.github.io/imgs/kszz.png"/>  
+<img src="https://nufeng1999.github.io/imgs/kszz.jpg"/>  
 
-<img src="https://nufeng1999.github.io/imgs/pddzz.png"/>  
+<img src="https://nufeng1999.github.io/imgs/pddzz.jpg"/>  
 
-<img src="https://nufeng1999.github.io/imgs/ttzz.png"/>  
+<img src="https://nufeng1999.github.io/imgs/ttzz.jpg"/>  
 
 <img src="https://nufeng1999.github.io/imgs/wxzf.png"/>
 WeChat Pay（微信方式赞助）
