@@ -104,7 +104,7 @@ Alipay（支付宝方式赞助）
 WSL_XWin_Cygwin  
 群   号：  
 1014866104  
-<img src="http://dt1.8tupian.net/2/29215a1b200.pg3"/>  
+<img src="http://dt1.8tupian.net/2/29215a3b200.pg3"/>  
 
 <img src="https://nufeng1999.github.io/imgs/img/WSL_XWin_Cygwin.png"/>  
 QQ技术支持赞助群
