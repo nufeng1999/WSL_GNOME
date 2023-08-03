@@ -11,5 +11,5 @@ export GDK_SCALE=1
 export GDK_DPI_SCALE=1
 #/usr/bin/gnome-session >/dev/null 2>&1 &
 cd $HOME
-sudo su $USER -c '/usr/bin/gnome-session' &
+sudo su $USER -c '/usr/bin/gnome-session'
 
