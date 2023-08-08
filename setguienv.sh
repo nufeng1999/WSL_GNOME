@@ -131,8 +131,10 @@ local_hostname=`hostname`
 #update Windows C:\Windows\System32\drivers\etc\hosts hostname 
 #Modify permissions of hosts file runas /user:Administrator C:\WINDOWS\System32\cacls.exe C:\WINDOWS\System32\drivers\etc\hosts   /t /e /c /g users:f
 /mnt/c/WINDOWS/System32/cacls.exe "C:\\WINDOWS\\System32\\drivers\\etc\\hosts"   /t /e /c /g users:f >  /dev/null 2>&1
-sed -i "/ $local_hostname/d" /mnt/c/WINDOWS/System32/drivers/etc/hosts >  /dev/null 2>&1 &
-echo "$local_ip $local_hostname " >>/mnt/c/WINDOWS/System32/drivers/etc/hosts    2>/dev/null &
+cp "C:\\WINDOWS\\System32\\drivers\\etc\\hosts" ~/hosts
+sed -i "/ wslhost/d" ~/hosts >  /dev/null 2>&1 &
+echo "$local_ip wslhost " >>~/hosts    2>/dev/null &
+cp ~/hosts /mnt/c/WINDOWS/System32/drivers/etc/hosts
 
 /usr/bin/wslfcitx
 
