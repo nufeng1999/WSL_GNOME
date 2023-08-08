@@ -132,8 +132,8 @@ local_hostname=`hostname`
 #Modify permissions of hosts file runas /user:Administrator C:\WINDOWS\System32\cacls.exe C:\WINDOWS\System32\drivers\etc\hosts   /t /e /c /g users:f
 /mnt/c/WINDOWS/System32/cacls.exe "C:\\WINDOWS\\System32\\drivers\\etc\\hosts"   /t /e /c /g users:f >  /dev/null 2>&1
 cp "/mnt/c/WINDOWS/System32/drivers/etc/hosts" ~/hosts
-sed -i "/ wslhost/d" ~/hosts >  /dev/null 2>&1 &
-echo "$local_ip wslhost " >>~/hosts    2>/dev/null &
+sed -i "/ wslhost/d" ~/hosts >  /dev/null 2>&1 
+echo "$local_ip wslhost " >>~/hosts    2>/dev/null 
 cp ~/hosts /mnt/c/WINDOWS/System32/drivers/etc/hosts
 
 /usr/bin/wslfcitx
