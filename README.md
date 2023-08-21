@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
 # WSL_GNOME  
+你可以加入[discord: discord.gg/xpkehrBx](https://discord.gg/xpkehrBx) 以获取项目最新进展.  
 # Windows & Linux GUI Mix WSL GNOME Desktop  
 Use Cygwin's xwin to run WSL GNOME Desktop  
 
