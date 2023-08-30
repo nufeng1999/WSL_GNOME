@@ -53,8 +53,20 @@ export LIBGL_ALWAYS_SOFTWARE=1
 #export GTK_THEME="WhiteSur-dark-solid"
 #export GDK_THEME="WhiteSur-dark-solid"
 export XDG_SESSION_TYPE="x11"
-export GDK_DPI_SCALE=1.75
-export QT_SCALE_FACTOR=1.75
+
+ProcNumber=`ps -ef|grep gnome-session-binary |grep -v grep|wc -l`
+if [ $ProcNumber -gt 0 ]; then
+ export GDK_DPI_SCALE=1
+ export QT_SCALE_FACTOR=1        
+else
+ export GDK_DPI_SCALE=1.75
+ export QT_SCALE_FACTOR=1.75
+fi
+
+#export GDK_DPI_SCALE=1.75
+#export QT_SCALE_FACTOR=1.75
+
+
 if [ "x$XDG_CURRENT_DESKTOP" != "x" ];then
 	export GDK_DPI_SCALE=1
 	export QT_SCALE_FACTOR=1

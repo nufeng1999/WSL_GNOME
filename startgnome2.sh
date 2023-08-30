@@ -9,7 +9,8 @@ sleep 5
 /usr/bin/fcitx -d -r >/dev/null 2>&1 &
 export GDK_SCALE=1
 export GDK_DPI_SCALE=1
-#/usr/bin/gnome-session >/dev/null 2>&1 &
-cd $HOME
-sudo su $USER -c '/usr/bin/gnome-session'
+/usr/bin/wslfcitx reload
+/usr/bin/gnome-session >/dev/null 2>&1 &
+#cd $HOME
+#sudo su $USER -c '/usr/bin/gnome-session'
 
