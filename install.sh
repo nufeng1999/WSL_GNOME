@@ -76,7 +76,11 @@ chmod +x /usr/bin/restartudev
 
 INCLUDENumber=`grep -i "setguienv" ~/.bashrc|wc -l`
 if [ $INCLUDENumber -le 0 ];then
+echo 'if [ ! -n "$SSH_CLIENT" ];then' >> ~/.bashrc
+echo 'if [ ! -n "$XRDP_SOCKET_PATH" ];then' >> ~/.bashrc
 	echo '. /usr/bin/setguienv' >> ~/.bashrc
+echo 'fi' >> ~/.bashrc
+echo 'fi' >> ~/.bashrc
 fi
 
 #-------------------
