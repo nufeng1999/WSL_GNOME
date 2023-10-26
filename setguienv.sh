@@ -13,7 +13,7 @@ init_info
 . /usr/bin/cygwinXenv
 #mkdir -p "$HOME"/.local/share/keyrings
 alias gedit='dbus-launch gedit'
-alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
+#alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
 alias code='dbus-launch /usr/bin/code --user-data-dir=$HOME/.vscode  --no-sandbox'
 alias jupyter-lab='jupyter-lab --ip=0.0.0.0 --allow-root'
 alias reboot='sudo /usr/bin/reboot'
@@ -72,7 +72,7 @@ if [ "x$XDG_CURRENT_DESKTOP" != "x" ];then
 	export QT_SCALE_FACTOR=1
 fi
 export GDK_SCALE=1
-#export GDK_DPI_SCALE=1
+export GDK_DPI_SCALE=1
 #export ELM_SCALE=2
 #export QT_SCALE_FACTOR=1.75
 #export QT_SCALE_FACTOR=1
