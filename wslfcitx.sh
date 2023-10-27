@@ -14,5 +14,5 @@ if [ $ProcNumber -le 0 ] || [ "x$1" = "xreload" ];then
 	export GTK_IM_MODULE=fcitx
 	export QT_IM_MODULE=fcitx
 	cd ~
-	/usr/bin/dbus-launch /usr/bin/fcitx -d -r >/dev/null 2>&1 &
+	/usr/bin/dbus-launch /usr/bin/fcitx -d -r --enable fcitx-qimpanel >/dev/null 2>&1 &
 fi
