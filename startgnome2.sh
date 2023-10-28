@@ -13,7 +13,7 @@ export GDK_DPI_SCALE=1
 #dbus-launch --session /usr/bin/gnome-session >/dev/null 2>&1 &
 #/usr/bin/gnome-session >/dev/null 2>&1 &
 cd $HOME
-sudo su $USER -c '/usr/bin/gnome-session &' 
+sudo -E su $USER -c '/usr/bin/gnome-session &' 
 sleep 2
 /usr/bin/gnomelogout >/dev/null 2>&1 &
 
