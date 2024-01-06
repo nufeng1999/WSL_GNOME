@@ -17,9 +17,12 @@ ln -sf $PWD/restartudev.sh /usr/bin/restartudev
 ln -sf $PWD/start-xfce4-panel.sh /usr/bin/start-xfce4-panel
 ln -sf $PWD/start-xfce4.sh /usr/bin/start-xfce4
 ln -sf $PWD/startgnome2.sh /usr/bin/startgnome2
+ln -sf $PWD/startgnome.sh /usr/bin/startgnome
 ln -sf $PWD/cygXS /usr/bin/cygXS
 ln -sf $PWD/gnomelogout.sh /usr/bin/gnomelogout
 
+chmod +x /usr/bin/startgnome2
+chmod +x /usr/bin/startgnome
 chmod +x /usr/bin/gnomelogout
 chmod +x /usr/bin/cygXS
 chmod +x /usr/bin/cygwinXenv

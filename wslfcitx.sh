@@ -5,7 +5,7 @@ ProcNumber=`ps -ef |grep -w $PROC_NAME|grep -v grep|wc -l`
 if [ $ProcNumber -le 0 ] || [ "x$1" = "xreload" ];then
 	if [ $ProcNumber -gt 0 ];then
 		ProcNumber1=`ps -ef |grep -w $PROC_NAME|grep $USER |grep -v grep|wc -l`
-		if [ $ProcNumber -gt 0 ];then
+		if [ $ProcNumber1 -gt 0 ];then
 			killall -9 fcitx >/dev/null
 		else
 			sudo killall -9 fcitx >/dev/null

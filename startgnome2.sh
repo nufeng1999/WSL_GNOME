@@ -10,13 +10,13 @@ sleep 5
 export GDK_SCALE=1.75
 export GDK_DPI_SCALE=1.75
 /usr/bin/wslfcitx reload
-dbus-launch /usr/bin/gnome-session --debug & 
+#dbus-launch /usr/bin/gnome-session &
 #>/dev/null 2>&1 &
 #/usr/bin/gnome-session --debug &
 #>/dev/null 2>&1 &
 cd $HOME
-#sudo -E su $USER -c 'dbus-launch /usr/bin/gnome-session &' 
+sudo -E su $USER -c '/usr/bin/startgnome &'
 #sudo -E su $USER -c '/usr/bin/gnome-session &'
 sleep 2
-#/usr/bin/gnomelogout >/dev/null 2>&1 &
-
+#echo "--------gnome logout"
+/usr/bin/gnomelogout >/dev/null 2>&1 &
