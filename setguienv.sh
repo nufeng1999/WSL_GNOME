@@ -37,6 +37,11 @@ LC_IDENTIFICATION="zh_CN.UTF-8"
 LC_ALL="zh_CN.UTF-8"
 
 export HOSTIP=$(ip route | awk '/^default/{print $3; exit}')
+local_ip=`/sbin/ifconfig -a|grep eth0 -A 1| grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
+HOSTIPC=`/mnt/c/Windows/System32/ipconfig.exe|grep  "Default Gateway"|grep $HOSTIP|wc -l`
+if [ $HOSTIPC -gt 0 ];then
+    export HOSTIP=$local_ip
+fi
 export DISPLAY=$HOSTIP:0.0
 export PULSE_SERVER=tcp:$HOSTIP
 
@@ -139,9 +144,10 @@ if [ -n "$SYSTEMD_PID" ] && [ "$SYSTEMD_PID" == "1" ]; then
     return
 fi
 
-local_ip=`/sbin/ifconfig -a|grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
 local_hostname=`hostname`
 /mnt/c/WINDOWS/System32/cmd.exe /C setx WSLHOSTIP $local_ip  >  /dev/null 2>&1 &
+
+
 #update Windows C:\Windows\System32\drivers\etc\hosts hostname
 #Modify permissions of hosts file runas /user:Administrator C:\WINDOWS\System32\cacls.exe C:\WINDOWS\System32\drivers\etc\hosts   /t /e /c /g users:f
 /mnt/c/WINDOWS/System32/cacls.exe "C:\\WINDOWS\\System32\\drivers\\etc\\hosts"   /t /e /c /g users:f >  /dev/null 2>&1
@@ -150,7 +156,7 @@ sed -i "/ wslhost/d" ~/hosts >  /dev/null 2>&1
 echo "$local_ip wslhost " >>~/hosts    2>/dev/null
 cp ~/hosts /mnt/c/WINDOWS/System32/drivers/etc/hosts
 
-/usr/bin/wslfcitx
+# /usr/bin/wslfcitx
 
 /usr/bin/startXServer
 /usr/bin/wslfcitx reload
