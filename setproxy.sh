@@ -1,9 +1,10 @@
 #!/bin/sh
 export HOSTIP=$(ip route | awk '/^default/{print $3; exit}')
 local_ip=`/sbin/ifconfig -a|grep eth0 -A 1| grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
-HOSTIPC=`/mnt/c/Windows/System32/ipconfig.exe|iconv  -f gbk -t utf-8|grep $HOSTIP|wc -l`
+HOSTIPC=`/mnt/c/Windows/System32/ipconfig.exe|iconv  -f gbk -t utf-8|grep -E "Default Gateway|默认网关"|grep $HOSTIP|wc -l`
 export HTTPPROXY=http://$HOSTIP:1080
-if [ $HOSTIPC -gt 0 ];then
+if [ "$HOSTIPC" -gt "0" ];then
+    #echo "HOSTIP : $HOSTIP ,local_ip: $local_ip"
     export HOSTIP=$local_ip
     export HTTPPROXY=http://127.0.0.1:1080
 fi
