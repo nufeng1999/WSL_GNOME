@@ -12,7 +12,7 @@ ln -sf $PWD/wslstartxfce4.sh /usr/bin/wslstartxfce4
 ln -sf $PWD/wslterminator.sh /usr/bin/wslterminator
 ln -sf $PWD/setwsl2bridge.sh  /usr/bin/setwsl2bridge
 ln -sf $PWD/00-wsl2-systemd.sh  /usr/bin/wsl2-systemd
-ln -sf $PWD/setresolv.sh /usr/bin/setresolv.sh 
+ln -sf $PWD/setresolv.sh /usr/bin/setresolv.sh
 ln -sf $PWD/restartudev.sh /usr/bin/restartudev
 ln -sf $PWD/start-xfce4-panel.sh /usr/bin/start-xfce4-panel
 ln -sf $PWD/start-xfce4.sh /usr/bin/start-xfce4
@@ -20,7 +20,9 @@ ln -sf $PWD/startgnome2.sh /usr/bin/startgnome2
 ln -sf $PWD/startgnome.sh /usr/bin/startgnome
 ln -sf $PWD/cygXS /usr/bin/cygXS
 ln -sf $PWD/gnomelogout.sh /usr/bin/gnomelogout
+ln -sf $PWD/start-xfce4-2 /usr/bin/start-xfce4-2
 
+chmod +x /usr/bin/start-xfce4-2
 chmod +x /usr/bin/startgnome2
 chmod +x /usr/bin/startgnome
 chmod +x /usr/bin/gnomelogout
@@ -38,5 +40,5 @@ chmod +x /usr/bin/wslstartxfce4
 chmod +x /usr/bin/wslterminator
 chmod +x /usr/bin/setwsl2bridge
 chmod +x /usr/bin/wsl2-systemd
-chmod +x /usr/bin/setresolv.sh 
+chmod +x /usr/bin/setresolv.sh
 chmod +x /usr/bin/restartudev
