@@ -1,0 +1,10 @@
+#!/bin/bash
+
+wintemp=`/mnt/c/WINDOWS/System32/cmd.exe /c "echo %TEMP%" 2>/dev/null|head -n 1 |tail -n 1`
+winwsltemp=`wslpath -u $wintemp`
+winwsltemp=${winwsltemp//$'\r'}
+winwsltemp=${winwsltemp//$'\n'}
+
+echo $winwsltemp
+wget -O "$winwsltemp/cygwin-setup.exe" https://cygwin.com/setup-x86_64.exe
+ll "$winwsltemp/cygwin-setup.exe"

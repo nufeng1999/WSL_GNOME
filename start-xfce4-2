@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+dbus-launch /usr/bin/xfce4-session
+dbus-send --type=signal /org/gnome/SessionManager org.gnome.SessionManager.CustomSignal string:"gnomelogout"
+echo "-------------XFCE4 Logout-----------------"
+#/usr/bin/gnomelogout
