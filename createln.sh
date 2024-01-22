@@ -22,7 +22,9 @@ ln -sf $PWD/cygXS /usr/bin/cygXS
 ln -sf $PWD/gnomelogout.sh /usr/bin/gnomelogout
 ln -sf $PWD/start-xfce4-2 /usr/bin/start-xfce4-2
 ln -sf $PWD/setwslgenv.sh /usr/bin/setwslgenv
+ln -sf $PWD/chguimod /usr/bin/chguimod
 
+chmod +x /usr/bin/chguimod
 chmod +x /usr/bin/setwslgenv
 chmod +x /usr/bin/start-xfce4-2
 chmod +x /usr/bin/startgnome2
