@@ -87,7 +87,12 @@ startgnome2
 . setguienv  
 startgnome2  
 
-***
+# Change the operating mode of the wls gui  
+sudo chguimod -m 1  wslg mode  
+  
+sudo chguimod -m 2  xwin mode  
+  
+***  
 If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
 
 如果你感觉这些内容对你有所帮助，可以向开发者进行友情赞助。赞助后你将可能获得更多帮助。  
