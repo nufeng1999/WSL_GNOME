@@ -91,7 +91,9 @@ startgnome2
 sudo chguimod -m 1  wslg mode  
   
 sudo chguimod -m 2  xwin mode  
-  
+
+  wslg 模式下字体清晰,中文输入流畅.  
+  <img src="https://nufeng1999.github.io/imgs/20240123102725.png"/>  
 ***  
 If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
 
@@ -103,9 +105,9 @@ WeChat Pay（微信方式赞助）
 <img src="https://nufeng1999.github.io/imgs/zfbzf.png"/>
 Alipay（支付宝方式赞助）  
 
-咸鱼付费远程协助  
+咸鱼低付费远程协助  
 <img src="https://nufeng1999.github.io/imgs/266665953320112.jpg"/>  
-咸鱼付费远程协助  
+咸鱼低付费远程协助  
 
 技术支持赞助群名称：  
 WSL_XWin_Cygwin  
@@ -115,3 +117,4 @@ WSL_XWin_Cygwin
 [赞助后可获得入群答案](http://dt1.8tupian.net/2/29215a3b200.pg3 "支付宝扫码支付后可获得入群答案")。  
 <img src="https://nufeng1999.github.io/imgs/img/WSL_XWin_Cygwin.png"/>  
 QQ技术支持赞助群
+啊第三方
