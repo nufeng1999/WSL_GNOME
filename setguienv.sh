@@ -10,8 +10,8 @@ function ready_info(){
 }
 
 if [ -n "$WAYLAND_DISPLAY" ] ; then
-	echo "***************************************"
-	echo "Currently running in WAYLAND mode."	
+    echo "***************************************"
+    echo "Currently running in WAYLAND mode."
     echo "***************************************"
     . /usr/bin/setwslgenv
     return
@@ -20,6 +20,7 @@ fi
 init_info
 . /usr/bin/cygwinXenv
 #mkdir -p "$HOME"/.local/share/keyrings
+export DONT_PROMPT_WSL_INSTALL=1
 alias gedit='dbus-launch gedit'
 #alias docker='docker -H unix:///mnt/wsl/shared-docker/docker.sock'
 alias code='dbus-launch /usr/bin/code --user-data-dir=$HOME/.vscode  --no-sandbox'
@@ -77,11 +78,6 @@ else
     export GDK_DPI_SCALE=1
     export QT_SCALE_FACTOR=1.75
 fi
-#export GDK_DPI_SCALE=1.75
-#export QT_SCALE_FACTOR=1.75
-#export GDK_DPI_SCALE=1.75
-#export QT_SCALE_FACTOR=1.75
-
 
 if [ "x$XDG_CURRENT_DESKTOP" != "x" ];then
     export GDK_DPI_SCALE=1
@@ -90,7 +86,6 @@ fi
 #export GDK_SCALE=1
 #export GDK_DPI_SCALE=1
 #export ELM_SCALE=2
-#export QT_SCALE_FACTOR=1.75
 #export QT_SCALE_FACTOR=1
 export QT_FONT_DPI=98
 #export QT_STYLE_OVERRIDE=adwaita
