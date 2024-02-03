@@ -94,6 +94,10 @@ sudo chguimod -m 2  xwin mode
 
   wslg 模式下字体清晰,中文输入流畅.  
   <img src="https://nufeng1999.github.io/imgs/20240123102725.png"/>  
+  <img src="https://nufeng1999.github.io/imgs/fLRwr9f3Bz.png"/>  
+  配合 SystemTrayMenu 工具使用更方便  
+  [SystemTrayMenu 项目](https://github.com/Hofknecht/SystemTrayMenu)  
+  
 ***  
 If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
 
