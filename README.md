@@ -35,7 +35,7 @@ apt install fcitx fcitx-ui-qimpanel fcitx-config-gtk  fcitx-sunpinyin fcitx-piny
 apt install xfonts-wqy xfonts-unifont fonts-wqy*  
   
 ##It depends on the version  
-apt install linux-tools-generic  
+apt install linux-tools-generic  graphicsmagick-imagemagick-compat  
 
 apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans  
 apt install daemonize gdm3 gnome 
