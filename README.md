@@ -1,7 +1,11 @@
 ![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
+
 # WSL_GNOME  
+
 你可以加入[discord: discord.gg/xpkehrBx](https://discord.gg/xpkehrBx) 以获取项目最新进展.  
+
 # Windows & Linux GUI Mix WSL GNOME Desktop  
+
 Use Cygwin's xwin to run WSL GNOME Desktop  
 
 ISwitch.exe --- Contrl app window maxsize,Resolving windows and WSL gui app input method conflicts  
@@ -19,68 +23,73 @@ ISwitch.exe -s  --- Move task to background( default -c -w)
 ![](https://github.com/nufeng1999/imgs/blob/main/img/20211115_112440.gif?raw=true)
 
 # Install  
+
 Important Notice :  
 1.Executing Windows terminal with administrator  
 2.Executing WSL with root (wsl -u root -d Ubuntu )  
+
 ## Powershell /DOS  
-notepad %USERPROFILE%\.wslconfig     
+
+notepad %USERPROFILE%\.wslconfig
 [wsl2]  
-guiApplications=false   
+guiApplications=false
 
 ## WSL  
-su - root    
+
+su - root
 
 apt install net-tools hwdata gedit  
 apt install fcitx fcitx-ui-qimpanel fcitx-config-gtk  fcitx-sunpinyin fcitx-pinyin  fcitx-googlepinyin xfonts-intl-chinese  
 apt install xfonts-wqy xfonts-unifont fonts-wqy*  
   
-##It depends on the version  
+## It depends on the version  
 apt install linux-tools-generic  graphicsmagick-imagemagick-compat  
 
 apt install language-pack-gnome-zh-hans language-pack-kde-zh-hans language-pack-zh-hans  
-apt install daemonize gdm3 gnome 
+apt install daemonize gdm3 gnome
 apt install ibus-libpinyin ibus-pinyin ibus-sunpinyin
 
 mkdir /opt/WSL  
 
 cd /opt/WSL  
 
-git clone https://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
+git clone <https://github.com/nufeng1999/WSL_GNOME.git> --recurse-submodules
 
 or  
 
 git clone git://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
 
-cd WSL_GNOME/cygwin-auto-install    
+cd WSL_GNOME/cygwin-auto-install
 git checkout master  
-cd ../   
+cd ../
 
 ### Install  WSL_GNOME  
 
-chmod +x ./install.sh   
-./install.sh   
-OR   
+chmod +x ./install.sh
+./install.sh
+OR
 ./install.sh -c "C:\\\\cygwin64" -i "C:\\\\ISwitch"  
 OR  
 ./install.sh --cygwindir="C:\\\\cygwin64" --iswitchdir "C:\\\\ISwitch"  
 
-   
 0.67.6+version of wsl already supports systemd  
 Edit the file /etc/wsl.conf  
 [boot]  
 systemd=true  
   
 # Close WSL
+
 DOS/PowerShell  
 
 wsl --shutdown  
 
 # reopening WSL  
+
 wsl -u root -d Ubuntu  
 
 // execute gnome  
 ~~wsl2-systemd~~  
-~~gnome-session &~~   
+~~gnome-session &~~
 
 startgnome2  
 // other user execute gnome  
@@ -88,6 +97,7 @@ startgnome2
 startgnome2  
 
 # Change the operating mode of the wls gui  
+
 sudo chguimod -m 1  wslg mode  
   
 sudo chguimod -m 2  xwin mode  
@@ -109,9 +119,9 @@ WeChat Pay（微信方式赞助）
 <img src="https://nufeng1999.github.io/imgs/zfbzf.png"/>
 Alipay（支付宝方式赞助）  
 
-咸鱼低付费远程协助  
+咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】
 <img src="https://nufeng1999.github.io/imgs/266665953320112.jpg"/>  
-咸鱼低付费远程协助  
+咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】
 
 技术支持赞助群名称：  
 WSL_XWin_Cygwin  
@@ -120,5 +130,4 @@ WSL_XWin_Cygwin
 技术群含更多资料  
 [赞助后可获得入群答案](http://dt1.8tupian.net/2/29215a3b200.pg3 "支付宝扫码支付后可获得入群答案")。  
 <img src="https://nufeng1999.github.io/imgs/img/WSL_XWin_Cygwin.png"/>  
-QQ技术支持赞助群
-啊第三方
+QQ技术支持赞助群  

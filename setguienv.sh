@@ -75,7 +75,7 @@ if [ $ProcNumber -gt 0 ]; then
     export GDK_DPI_SCALE=1.75
     export QT_SCALE_FACTOR=1.75
 else
-    export GDK_DPI_SCALE=1
+    export GDK_DPI_SCALE=1.75
     export QT_SCALE_FACTOR=1.75
 fi
 
