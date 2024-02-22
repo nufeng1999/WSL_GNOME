@@ -119,9 +119,9 @@ WeChat Pay（微信方式赞助）
 <img src="https://nufeng1999.github.io/imgs/zfbzf.png"/>
 Alipay（支付宝方式赞助）  
 
-咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】
-<img src="https://nufeng1999.github.io/imgs/266665953320112.jpg"/>  
-咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】
+咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】  
+<img src="https://nufeng1999.github.io/imgs/266665953320112.jpg"/>    
+咸鱼低付费远程协助 闲鱼搜【远程协助在wsl2运行gnome桌面】  
 
 技术支持赞助群名称：  
 WSL_XWin_Cygwin  
